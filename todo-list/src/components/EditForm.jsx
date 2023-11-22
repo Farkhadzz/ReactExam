@@ -1,5 +1,5 @@
 import { Form, useLoaderData, useNavigate } from "react-router-dom";
-import { editTask } from "../../redux/slices/tasksSlices";
+import { editTask } from "../redux/slices/tasksSlices";
 import { useDispatch } from "react-redux";
 
 export default function EditForm() {

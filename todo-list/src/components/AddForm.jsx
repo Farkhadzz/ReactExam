@@ -1,6 +1,6 @@
 import { Form } from "react-router-dom";
-import { addTask } from "../../redux/slices/tasksSlices";
-import { createTask } from "../../tasks";
+import { addTask } from "../redux/slices/tasksSlices";
+import { createTask } from "../tasks";
 import { useDispatch } from "react-redux";
 
 export default function AddForm() {
