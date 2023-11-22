@@ -7,7 +7,6 @@ export async function action({ request, params }) {
     const updates = Object.fromEntries(formData);
 
     await updateTask(params.taskId, updates);
-    window.location.reload();
     return redirect(`/tasks/${params.taskId}`);
 }
 
